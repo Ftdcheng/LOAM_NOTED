@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(loam_velodyne)
+cmake_minimum_required(VERSION 3.5)
+project(loam_velodyne VERSION 0.0.1 LANGUAGES CXX)
 
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
 #find_package(Eigen3 REQUIRED)
 find_package(PCL REQUIRED)
 find_package(OpenCV REQUIRED)
+find_package (Eigen3 3.3 REQUIRED NO_MODULE)
 
 include_directories(
   include

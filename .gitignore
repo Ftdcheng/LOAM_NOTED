@@ -1,3 +1,7 @@
 docker/*.zip
 docker/*.tar.gz
 docker/*.tar.xz
+
+build
+devel
+/root/loam_ws/src/LOAM_NOTED/src/loam_velodyne/build
