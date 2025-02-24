@@ -1,0 +1,3 @@
+docker/*.zip
+docker/*.tar.gz
+docker/*.tar.xz

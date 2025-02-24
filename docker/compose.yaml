@@ -1,0 +1,9 @@
+services:
+  loam:
+    build:
+      context: .
+      args:
+        - HTTP_PROXY=http://172.17.0.1:7897
+        - HTTPS_PROXY=http://172.17.0.1:7897
+    stdin_open: true
+    tty: true
