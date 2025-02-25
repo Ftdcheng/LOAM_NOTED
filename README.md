@@ -1,8 +1,7 @@
 # LOAM_NOTED
-LOAM中文注解版与相关论文，若有差错欢迎指正～
 
-Here you can see the loam code noted in Chinese and the loam related papers.
+在`LOAM_NOTED`项目的基础上进行了自己的一些修改
 
-I'm sure you've never seen more detailed loam code notes than mine!
+## 依赖
 
-For non-Chinese users, Google Translate will help you.
+* OpenCV 4.3.0

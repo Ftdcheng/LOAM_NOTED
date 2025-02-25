@@ -1,9 +1,18 @@
 services:
   loam:
+    image: cheng/loam
+    container_name: cheng-loam
     build:
+      target: build
       context: .
       args:
         - HTTP_PROXY=http://172.17.0.1:7897
         - HTTPS_PROXY=http://172.17.0.1:7897
+    environment:
+      - DISPLAY=$DISPLAY
+    volumes:
+      - type: bind
+        source: /tmp/.X11-unix
+        target: /tmp/.X11-unix
     stdin_open: true
     tty: true
