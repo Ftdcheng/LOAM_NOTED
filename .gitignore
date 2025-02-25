@@ -4,4 +4,10 @@ docker/*.tar.xz
 
 build
 devel
-/root/loam_ws/src/LOAM_NOTED/src/loam_velodyne/build
+src/loam_velodyne/build
+src/loam_velodyne/utils/kitti2bag/bin
+src/loam_velodyne/utils/kitti2bag/include
+src/loam_velodyne/utils/kitti2bag/lib
+src/loam_velodyne/utils/kitti2bag/lib64
+src/loam_velodyne/utils/kitti2bag/pyvenv.cfg
+src/loam_velodyne/utils/kitti2bag/share
